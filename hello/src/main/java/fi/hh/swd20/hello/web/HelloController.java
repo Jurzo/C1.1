@@ -11,7 +11,7 @@ public class HelloController {
 
     @RequestMapping("*")
     public String world() {
-        return "This is the main page";
+        return "Hello World and Universe !!";
     }
 
     @RequestMapping("/hello")
